@@ -2,7 +2,7 @@ package com.sarvani.email.model;
 public class Employee {
 	private String FirstName;
 	private String LastName;
-public void Employee(String FirstName,String LastName) {
+public  Employee(String FirstName,String LastName) {
 	this.FirstName= FirstName;
 	this.LastName=LastName;
 	}

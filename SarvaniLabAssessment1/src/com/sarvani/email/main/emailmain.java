@@ -5,20 +5,18 @@ import com.sarvani.email.service.CredentialImple;
 public class emailmain {
 public  static void main(String[] args) {
 		CredentialImple cdi= new CredentialImple();
-		Employee emp =new Employee();
+		
 		String emailId;
 		String fname;
 		String lname;
 		String password;
-		String department;
+		String department;	
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter first name\n");
 		fname=sc.nextLine();
-		emp.setFirstName(fname);
 		System.out.println("Please enter last name\n");
 		lname=sc.nextLine();
-		emp.setLastName(lname);
-		
+		Employee emp =new Employee(fname,lname);
 		System.out.println("Please enter the department from the following:\n"+
 		"1. Technical\n"+"2. Admin\n"+"3. Human Resources\n"+"4. Legal\n");
 		int ch;	

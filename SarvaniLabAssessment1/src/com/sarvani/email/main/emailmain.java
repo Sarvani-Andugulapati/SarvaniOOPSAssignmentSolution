@@ -2,7 +2,6 @@ package com.sarvani.email.main;
 import java.util.Scanner;
 import com.sarvani.email.model.*;
 import com.sarvani.email.service.CredentialImple;
-import com.sarvani.email.service.CredentialService;
 public class emailmain {
 public  static void main(String[] args) {
 		CredentialImple cdi= new CredentialImple();
@@ -38,7 +37,7 @@ public  static void main(String[] args) {
 			cdi.showCredentials(fname, emailId, password);
 			break;
 		case 3: 
-			department="Human Resource";
+			department="HumanResource";
 			emailId=cdi.generateEmailId(emp,department);
 			password=cdi.generatePassword();
 			cdi.showCredentials(fname, emailId, password);

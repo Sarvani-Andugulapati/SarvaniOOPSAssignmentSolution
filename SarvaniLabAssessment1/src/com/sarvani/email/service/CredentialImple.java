@@ -15,7 +15,7 @@ public class CredentialImple extends CredentialService {
 			return (emp.getFirstName()+emp.getLastName()+department+"@"+"sarvani"+".com");
 		}
 		public void showCredentials(String fname,String emailId,String password) {
-			System.out.println("Dear"+fname+" "+"your generated credentials are as follows:\n"+
+			System.out.println("Dear"+" "+fname+" "+"your generated credentials are as follows:\n"+
 					"Email--->"+" "+emailId+" \n"+"password--->"+" "+password+" \n");
 		}
 	}

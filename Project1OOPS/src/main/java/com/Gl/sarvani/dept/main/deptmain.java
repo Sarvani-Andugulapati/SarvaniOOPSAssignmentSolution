@@ -1,11 +1,12 @@
 package com.Gl.sarvani.dept.main;
 
-import java.util.Scanner;
+import com.Gl.sarvani.dept.admindept.AdminDepartment;
+import com.Gl.sarvani.dept.hrdept.HRDepartment;
 
-import com.Gl.sarvani.dept.model.AdminDepartment;
-import com.Gl.sarvani.dept.model.HRDepartment;
+//import java.util.Scanner;
+
 import com.Gl.sarvani.dept.model.SuperDepartment;
-import com.Gl.sarvani.dept.model.TechDepartment;
+import com.Gl.sarvani.dept.techdept.TechDepartment;
 
 public class deptmain {
 
